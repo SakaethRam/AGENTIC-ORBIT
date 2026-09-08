@@ -1,0 +1,8 @@
+{
+  "name": "orbit-agentic-ai",
+  "version": "1.0.0",
+  "private": true,
+  "bin": {
+    "orbit": "./bin/orbit.cmd"
+  }
+}
