@@ -9,10 +9,10 @@ For the agent roster and execution lifecycle specifically, see
 
 ORBIT separates four concerns so that each can evolve independently:
 
-1. **Interface** — how a developer issues a command and observes a build.
-2. **Orchestration** — how a command is decomposed, assigned, and assembled.
-3. **Provider integrations** — how each agent actually reaches a model.
-4. **Demonstration** — a fully isolated path that reproduces the workflow
+1. **Interface** : how a developer issues a command and observes a build.
+2. **Orchestration** : how a command is decomposed, assigned, and assembled.
+3. **Provider integrations** : how each agent actually reaches a model.
+4. **Demonstration** : a fully isolated path that reproduces the workflow
    without touching real providers or credentials.
 
 ## Layered View
