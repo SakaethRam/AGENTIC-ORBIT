@@ -1,0 +1,73 @@
+# ORBIT Open Development License
+
+**Version 1.0 — September 2026**
+
+Copyright (c) 2026 ORBIT Founding Developers.
+
+Permission is hereby granted, subject to the terms below, to use, study, copy, modify, and develop upon the ORBIT software and source code.
+
+## 1. Permission to Use and Develop
+
+You may use, study, copy, modify, fork, and build derivative works from ORBIT for personal, educational, research, internal development, and commercial purposes.
+
+You may build applications, tools, integrations, and systems on top of ORBIT.
+
+This license does not transfer ownership of the ORBIT name, branding, logos, trademarks, or other intellectual property.
+
+## 2. Public Distribution and Founding Developer Permission
+
+Projects substantially based on ORBIT may be distributed, deployed, or publicly presented only with the express permission of the ORBIT founding developers.
+
+Permission may be granted in writing, electronically, or through an explicit project-level notice.
+
+Private modification, study, experimentation, and internal development remain permitted.
+
+## 3. Commercial Advertising and Promotion
+
+Commercial use for internal development is permitted.
+
+However, ORBIT, its name, branding, logos, or substantially unmodified ORBIT software may not be used as a commercial advertising vehicle, endorsement mechanism, promotional product, or paid public offering without express permission from the ORBIT founding developers.
+
+No third party may imply that the ORBIT founding developers endorse, sponsor, certify, or are affiliated with a third-party product or service without permission.
+
+## 4. Attribution
+
+Copyright and license notices contained in the original source code must be retained in copies or substantial portions of the software.
+
+Derivative projects should reasonably acknowledge that they are based on ORBIT.
+
+## 5. Trademarks and Branding
+
+This license grants no permission to use the ORBIT name, logos, visual identity, founder names, or product marks for advertising, endorsement, or branding without permission.
+
+Forks and derivative works must not represent themselves as the official ORBIT project unless expressly authorized.
+
+## 6. Patent Rights
+
+To the extent that a contributor owns patent claims necessarily infringed by their contribution, that contributor grants a non-exclusive, worldwide, royalty-free patent license to make, use, modify, and distribute that contribution as part of the software.
+
+This patent grant does not extend to patent claims unrelated to the contribution, separate products that merely interact with ORBIT, or claims arising solely from independent modifications.
+
+No contributor transfers ownership of patents or other intellectual property.
+
+## 7. No Endorsement
+
+Use of ORBIT does not create any partnership, agency, employment, sponsorship, certification, or endorsement relationship with the ORBIT founding developers.
+
+## 8. Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE ORBIT FOUNDING DEVELOPERS AND CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE.
+
+## 9. License Changes
+
+The ORBIT founding developers may publish future versions of this license for subsequent releases.
+
+Code already released under this version remains governed by this version unless its recipients separately agree to a later license.
+
+## 10. Interpretation
+
+This license is intended to permit technical use, research, modification, and development while preserving stewardship of the ORBIT project and control over its public distribution, advertising, and branding.
+
+If any provision is held unenforceable, the remaining provisions remain effective to the maximum extent permitted by law.
