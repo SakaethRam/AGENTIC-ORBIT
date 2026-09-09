@@ -105,7 +105,7 @@ requirements are covered in the repository's security guidelines.
 The demo path and the real execution path are kept structurally separate at
 every layer:
 
-- The demo never calls Gemini, Mistral, or Cerebras.
+- The demo never calls Gemini, Mistral, or Cerebras (or Groq).
 - The demo never reads BYOK or ORBIT-managed credentials.
 - Every file the demo writes is marked with a `/* MOCK FILE */` comment.
 
