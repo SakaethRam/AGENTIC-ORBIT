@@ -14,8 +14,8 @@ same problem.
 | Agent    | Provider       | Model                | Responsibility                              |
 |----------|-----------------|------------------------|-----------------------------------------------|
 | Agent 01 | Google Gemini   | Gemini 3.7 Flash       | Architecture and application structure        |
-| Agent 02 | Mistral         | Mistral Small          | Core functionality and feature implementation |
-| Agent 03 | Cerebras        | Qwen3 235B Instruct    | Integration, UI, and refinement                |
+| Agent 02 | Mistral         | Mistral Small / codestral-2508         | Core functionality and feature implementation |
+| Agent 03 | Cerebras / Groq        | Qwen-3.8-27b / gpt-oss-120b    | Integration, UI, and refinement                |
 
 The exact model configuration is maintained centrally and may change as
 providers and models evolve; treat the table above as the current default
@@ -68,7 +68,7 @@ system, which keeps model access under the developer's direct control.
 |-----------------|----------------------------------------------------|
 | Google Gemini   | Agent 01 (architecture and application structure)   |
 | Mistral         | Agent 02 (core functionality and feature implementation) |
-| Cerebras        | Agent 03 (integration, UI, and refinement)           |
+| Cerebras / Groq       | Agent 03 (integration, UI, and refinement)           |
 
 Credentials are treated as sensitive at every layer: never committed to
 source control, never written to logs, and never exposed in UI output.
