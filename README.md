@@ -6,9 +6,7 @@ asking several agents to independently solve the same problem, ORBIT
 decomposes a development task into focused responsibilities and lets agents
 work on different parts of a project in parallel.
 
-One command. Multiple agents. One project.
-
->VISIT ORBIT AGENT: [@Orbit](agentic-orbit.netlify.app/)
+>VISIT ORBIT AGENT: [@Orbit](https://agentic-orbit.netlify.app/)
 
 ## Overview
 
