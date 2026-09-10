@@ -87,5 +87,4 @@ practice as it is a tool for it.
 
 ## License
 
-ORBIT is released under the MIT License. See [LICENSE](./LICENSE) for the
-full text.
+ORBIT is distributed under the terms defined in `LICENSE`.
