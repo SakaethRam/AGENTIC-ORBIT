@@ -1,4 +1,4 @@
-# ORBIT AGENT: OPEN-SOURCE ● MULTI-AGENT DEVELOPMENT
+# ORBIT: OPEN-SOURCE ● MULTI-AGENT DEVELOPMENT
 
 ORBIT is a BYOK-enabled, multi-agent development workspace that coordinates
 multiple AI coding agents around a single software project. Instead of
