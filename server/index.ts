@@ -8,7 +8,7 @@ import { demoService } from './services/demoService.js';
 import { verifyByokApiKey } from './services/byokVerifier.js';
 import { hasDefaultConfigs } from './services/supabase.js';
 import { ORBIT_AGENTS } from '../src/config/models.js';
-import orbitProjectsRouter from "./routes/orbitProjects";
+import orbitProjectsRouter from "./routes/orbitProjects.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,7 +21,7 @@ app.use(express.json());
 
 // API Routes
 
-// X. Route
+// Orbit Clone Route
 app.use("/api/orbit", orbitProjectsRouter);
 
 // 1. Sessions API (Exactly two persistent sessions)
@@ -144,7 +144,7 @@ app.post('/api/models/execute', async (req: Request, res: Response) => {
 
 // 5. Project API
 app.get('/api/projects/:name', (req: Request, res: Response) => {
-  const { name } = req.params;
+  const name = String(req.params.name);
 
   if (name === 'north-star') {
     res.json({
@@ -174,7 +174,7 @@ app.get('/api/projects/:name', (req: Request, res: Response) => {
 
 // 6. Orbit Clone Endpoint
 app.get('/api/clone/:projectName', (req: Request, res: Response) => {
-  const { projectName } = req.params;
+  const projectName = String(req.params.projectName);
 
   // PRODUCT DEMO CLONE (100% Mocked)
   if (projectName === 'north-star') {
