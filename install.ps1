@@ -54,10 +54,6 @@ if (-not (Test-Path "$packageDir\dist\index.js")) {
     throw "ORBIT CLI build files were not found."
 }
 
-if (-not (Test-Path "$packageDir\runtime\node.exe")) {
-    throw "Bundled Node.js runtime was not found."
-}
-
 # Copy CLI files directly to installation directory
 Write-Host "Installing ORBIT CLI..." -ForegroundColor Yellow
 
@@ -68,11 +64,6 @@ Copy-Item "$packageDir\bin" `
 
 Copy-Item "$packageDir\dist" `
     "$installDir\dist" `
-    -Recurse `
-    -Force
-
-Copy-Item "$packageDir\runtime" `
-    "$installDir\runtime" `
     -Recurse `
     -Force
 
