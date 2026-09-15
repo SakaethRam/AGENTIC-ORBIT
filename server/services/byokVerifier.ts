@@ -1,4 +1,4 @@
-import { ORBIT_AGENTS } from '../src/config/models.js';
+import { ORBIT_AGENTS } from "../../src/config/models.js";
 
 export interface VerificationResult {
   provider: string;
