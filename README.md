@@ -33,14 +33,6 @@ coordinated alternative: break a development problem into smaller
 responsibilities, and let multiple agents work on those responsibilities
 concurrently.
 
-## Install ORBIT CLI (`Orbit Clone`)
-
-Install the ORBIT CLI on Windows with a single command and unlock `Orbit Clone` feature:
-
-```powershell
-iwr -useb https://raw.githubusercontent.com/SakaethRam/AGENTIC-ORBIT/main/install.ps1 | iex
-```
-
 ## Core Concepts
 
 - **Multi-agent development.** Three specialized agents, each with a fixed
