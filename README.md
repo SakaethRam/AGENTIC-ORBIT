@@ -1,12 +1,12 @@
 # ORBIT: OPEN-SOURCE ● MULTI-AGENT DEVELOPMENT
 
-ORBIT is a BYOK-enabled, multi-agent development workspace that coordinates
+ORBIT ([@Orbit-Agents](https://agentic-orbit.vercel.app/)) is a BYOK-enabled, multi-agent development workspace that coordinates
 multiple AI coding agents around a single software project. Instead of
 asking several agents to independently solve the same problem, ORBIT
 decomposes a development task into focused responsibilities and lets agents
 work on different parts of a project in parallel.
 
->VISIT ORBIT AGENT: [@Orbit Agents](https://agentic-orbit.vercel.app/)
+<img width="1800" height="1000" alt="ZREX ORBIT" src="https://github.com/user-attachments/assets/5417c892-ce52-465e-acff-673e5170d3cc" />
 
 ## Overview
 
